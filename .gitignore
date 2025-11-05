@@ -10,3 +10,4 @@ wheels/
 .venv
 data/*.csv
 models/*.joblib
+.env
