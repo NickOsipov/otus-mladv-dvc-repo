@@ -5,7 +5,7 @@ stages:
     deps:
     - path: data/winequality-red.csv
       hash: md5
-      md5: 28029e4ce46115cbb0ef2b96d980d120
+      md5: 6a0fdafce844c81d0661b6dddccd308c
       size: 91997
     - path: train.py
       hash: md5
@@ -14,9 +14,9 @@ stages:
     outs:
     - path: metrics.csv
       hash: md5
-      md5: cb59f91b18c955c2ff770754078e4d8e
-      size: 31
+      md5: 418bd13b2c66b335f98a97accb4a6077
+      size: 28
     - path: models/model.joblib
       hash: md5
-      md5: 4f6605ba3d4728ff1e449323a831237f
-      size: 3432481
+      md5: be1886036d3a57c0c19ce38d296c6e3f
+      size: 3433345
